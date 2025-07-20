@@ -1,0 +1,15 @@
+{
+  "name": "alphaadvisoryassociates",
+  "version": "1.0.0",
+  "description": "Alpha Advisory Associates website",
+  "main": "index.php",
+  "scripts": {
+    "dev": "C:\\xampp2\\php\\php.exe -S localhost:8000 -t .",
+    "watch": "browser-sync start --proxy localhost:8000 --files '**/*.php, **/*.html, **/*.css, **/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}

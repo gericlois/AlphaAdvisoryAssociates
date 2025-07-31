@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+session_start();
+include "includes/connection.php";
+?>
 <?php include "includes/head.php" ?>
 
 <body>
@@ -265,96 +268,59 @@
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Blog & News</h4>
                 <h1 class="display-5 mb-4">Insights on Governance, Markets, and Engagement</h1>
-                <p class="mb-0">Stay informed with the latest trends, analysis, and expert commentary from Alpha
-                    Advisory Associates. Explore thought leadership that drives better shareholder communication and
-                    strategy.
+                <p class="mb-0">
+                    Stay informed with the latest trends, analysis, and expert commentary from Alpha Advisory Associates. Explore thought leadership that drives better shareholder communication and strategy.
                 </p>
             </div>
+
             <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
-                <div class="blog-item p-4">
-                    <div class="blog-img mb-4">
-                        <img src="../img/service-1.jpg" class="img-fluid w-100 rounded" alt="">
-                        <div class="blog-title">
-                            <a href="#" class="btn">Dividend Stocks</a>
+                <?php
+
+                $query = "SELECT blogs.*, users.name AS author_name 
+                      FROM blogs 
+                      LEFT JOIN users ON blogs.author_id = users.user_id 
+                      WHERE status = 'published' 
+                      ORDER BY published_at DESC 
+                      LIMIT 10";
+
+                $result = mysqli_query($conn, $query);
+
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $title = htmlspecialchars($row['title']);
+                    $slug = htmlspecialchars($row['slug']);
+                    $excerpt = substr(strip_tags($row['content']), 0, 120) . '...';
+                    $image = !empty($row['image_path']) ? '../' . $row['image_path'] : '../img/default.jpg';
+                    $author = $row['author_name'] ?: 'Admin';
+                    $date = date("F j, Y", strtotime($row['published_at']));
+                ?>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="<?= $image ?>" class="img-fluid w-100 rounded" alt="<?= $title ?>">
+                            <div class="blog-title">
+                                <a href="blog-details.php?slug=<?= $slug ?>" class="btn"><?= $author ?></a>
+                            </div>
+                        </div>
+                        <a href="blog-details.php?slug=<?= $slug ?>" class="h4 d-inline-block mb-3"><?= $title ?></a>
+                        <p class="mb-3"><?= $excerpt ?></p>
+
+                        <!-- Learn More Button -->
+                        <a href="blog-details.php?slug=<?= $slug ?>" class="btn btn-sm btn-primary rounded-pill px-4 mb-3">Learn More</a>
+
+                        <div class="d-flex align-items-center">
+                            <img src="../img/testimonial-1.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="Author">
+                            <div class="ms-3">
+                                <h5><?= $author ?></h5>
+                                <p class="mb-0"><?= $date ?></p>
+                            </div>
                         </div>
                     </div>
-                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
-                        suscipit error corporis accusamus labore....
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <img src="../img/testimonial-1.jpg" class="img-fluid rounded-circle"
-                            style="width: 60px; height: 60px;" alt="">
-                        <div class="ms-3">
-                            <h5>Admin</h5>
-                            <p class="mb-0">October 9, 2025</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item p-4">
-                    <div class="blog-img mb-4">
-                        <img src="../img/service-2.jpg" class="img-fluid w-100 rounded" alt="">
-                        <div class="blog-title">
-                            <a href="#" class="btn">Non-Dividend Stocks</a>
-                        </div>
-                    </div>
-                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
-                        suscipit error corporis accusamus labore....
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <img src="../img/testimonial-2.jpg" class="img-fluid rounded-circle"
-                            style="width: 60px; height: 60px;" alt="">
-                        <div class="ms-3">
-                            <h5>Admin</h5>
-                            <p class="mb-0">October 9, 2025</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item p-4">
-                    <div class="blog-img mb-4">
-                        <img src="../img/service-3.jpg" class="img-fluid w-100 rounded" alt="">
-                        <div class="blog-title">
-                            <a href="#" class="btn">Dividend Stocks</a>
-                        </div>
-                    </div>
-                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
-                        suscipit error corporis accusamus labore....
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <img src="../img/testimonial-3.jpg" class="img-fluid rounded-circle"
-                            style="width: 60px; height: 60px;" alt="">
-                        <div class="ms-3">
-                            <h5>Admin</h5>
-                            <p class="mb-0">October 9, 2025</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item p-4">
-                    <div class="blog-img mb-4">
-                        <img src="../img/service-4.jpg" class="img-fluid w-100 rounded" alt="">
-                        <div class="blog-title">
-                            <a href="#" class="btn">Non-Dividend Stocks</a>
-                        </div>
-                    </div>
-                    <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam
-                        suscipit error corporis accusamus labore....
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <img src="../img/testimonial-1.jpg" class="img-fluid rounded-circle"
-                            style="width: 60px; height: 60px;" alt="">
-                        <div class="ms-3">
-                            <h5>Admin</h5>
-                            <p class="mb-0">October 9, 2025</p>
-                        </div>
-                    </div>
-                </div>
+                <?php } ?>
             </div>
         </div>
     </div>
     <!-- Blog End -->
+
+
 
     <!-- FAQs Start -->
     <div class="container-fluid faq-section pb-5">

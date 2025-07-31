@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+session_start();
+    include "includes/connection.php";
+?>
 <?php include "includes/head.php" ?>
 
 <body>

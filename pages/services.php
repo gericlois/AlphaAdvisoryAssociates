@@ -22,7 +22,7 @@ include "includes/connection.php";
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
-            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
+            <h2 class="text-white mb-0 wow fadeInDown" data-wow-delay="0.1s">Our Services</h2>
             <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -40,7 +40,7 @@ include "includes/connection.php";
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Services</h4>
-                <h1 class="display-5 mb-4">Expert Shareholder Communication Solutions</h1>
+                <h2 class=" mb-0">Expert Shareholder Communication Solutions</h2>
                 <p class="mb-0">We provide tailored services to help companies engage effectively with shareholders,
                     manage governance, and strengthen investor relations globally.
                 </p>
@@ -55,12 +55,12 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-1.jpg" class="img-fluid rounded-top w-100"
+                            <img src="../img/service-1.jpg" class="img-fluid rounded-top w-75"
                                 alt="Shareholder ID">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Shareholder Identification</a>
-                            <p class="mb-4">Accurate shareholder ID, activist hedge fund tracking, and deep ownership
+                            <p class="mb-0">Accurate shareholder ID, activist hedge fund tracking, and deep ownership
                                 analysis to guide your strategy.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -71,12 +71,12 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-2.jpg" class="img-fluid rounded-top w-100"
+                            <img src="../img/service-2.jpg" class="img-fluid rounded-top w-75"
                                 alt="Proxy Solicitation">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Proxy Solicitation</a>
-                            <p class="mb-4">Manage annual and extraordinary meetings, vote projections, and post-meeting
+                            <p class="mb-0">Manage annual and extraordinary meetings, vote projections, and post-meeting
                                 analysis with confidence.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -87,12 +87,12 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-3.jpg" class="img-fluid rounded-top w-100"
+                            <img src="../img/service-3.jpg" class="img-fluid rounded-top w-75"
                                 alt="Perception Studies">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Perception Studies</a>
-                            <p class="mb-4">Gauge investor sentiment through direct feedback and turn insights into
+                            <p class="mb-0">Gauge investor sentiment through direct feedback and turn insights into
                                 actionable communication strategies.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -103,12 +103,12 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-4.jpg" class="img-fluid rounded-top w-100"
+                            <img src="../img/service-4.jpg" class="img-fluid rounded-top w-75"
                                 alt="Roadshow Setup">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Roadshow Set-Up</a>
-                            <p class="mb-4">Coordinate investor meetings globally and connect with decision-makers to
+                            <p class="mb-0">Coordinate investor meetings globally and connect with decision-makers to
                                 strengthen engagement.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -126,12 +126,12 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-5.jpg" class="img-fluid rounded-top w-100"
+                            <img src="../img/service-5.jpg" class="img-fluid rounded-top w-75"
                                 alt="Annual Report Distribution">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Annual Report Distribution</a>
-                            <p class="mb-4">Electronic report delivery solutions to ensure timely and compliant
+                            <p class="mb-0">Electronic report delivery solutions to ensure timely and compliant
                                 shareholder communications.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -142,11 +142,11 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Post-Meeting Vote Analysis">
+                            <img src="../img/service-6.jpg" class="img-fluid rounded-top w-75" alt="Post-Meeting Vote Analysis">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Post-Meeting Vote Analysis</a>
-                            <p class="mb-4">Understand how your investors voted and why. We deliver detailed reports and insights to refine your future engagement strategies.</p>
+                            <p class="mb-0">Understand how your investors voted and why. We deliver detailed reports and insights to refine your future engagement strategies.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
@@ -157,12 +157,12 @@ include "includes/connection.php";
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="../img/service-1.jpg" class="img-fluid rounded-top w-100"
+                            <img src="../img/service-1.jpg" class="img-fluid rounded-top w-75"
                                 alt="Vote Projections">
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-3">Vote Projections</a>
-                            <p class="mb-4">Estimate and influence expected voting outcomes before key meetings through
+                            <p class="mb-0">Estimate and influence expected voting outcomes before key meetings through
                                 strategic forecasting.</p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -180,7 +180,7 @@ include "includes/connection.php";
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Testimonial</h4>
-                <h1 class="display-5 mb-4">Trusted by Global Companies</h1>
+                <h2 class=" mb-0">Trusted by Global Companies</h2>
                 <p class="mb-0">
                     Our clients value our responsiveness, precision, and ability to deliver results across time zones.
                     Here’s what they have to say about working with Alpha Advisory Associates.

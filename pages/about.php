@@ -22,7 +22,7 @@ session_start();
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
-            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
+            <h2 class="text-white mb-0 wow fadeInDown" data-wow-delay="0.1s">About Us</h2>
             <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -42,14 +42,14 @@ session_start();
                 <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
                         <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">Meet Alpha Advisory Associates</h1>
-                        <p class="mb-4">
+                        <h2 class=" mb-0">Meet Alpha Advisory Associates</h2>
+                        <p class="mb-0">
                             Alpha Advisory Associates, Inc. was formed in 2012 by Julian Cassells. After the Altman Group exited the Shareholder Identification and Global Proxy Solicitation business in mid-2011, the Colgate University alum set out on her own. Cassells was joined by senior level executives from the former Altman division, as the passion and drive to provide very high level service offerings remained.
                         </p>
-                        <p class="mb-4">
+                        <p class="mb-0">
                             In today’s highly volatile corporate governance environment, it is essential that issuers and their boards have experienced advisors to guide them through the challenges that lay ahead. Led by a team of senior professionals and a commitment to provide the highest level of client service, Alpha Advisory Associates has established itself as the preeminent full-service firm providing shareholder identification, proxy solicitation, and other IR related services to company’s located outside of the United States.
                         </p>
-                        <p class="mb-4">
+                        <p class="mb-0">
                             Collectively, our executives have worked on over 200 companies, offering them their own customized shareholder identification research, as well as managing telephone solicitation campaigns. Other services our clients request from us are, but not limited to Investor Targeting, Investor Roadshow Set-up, Perception Studies, and Electronic Annual Report Distribution.
                         </p>
                         <div class="row g-4">
@@ -96,51 +96,51 @@ session_start();
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Clients Tell Us</h4>
-                <h1 class="display-5 mb-4">What Our Clients Say About Us</h1>
+                <h2 class=" mb-0">What Our Clients Say About Us</h2>
                 <p class="mb-0">Trusted globally for our accuracy, responsiveness, and strategic insight—here’s why companies choose Alpha Advisory Associates.
                 </p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="feature-item p-4">
-                        <div class="feature-icon p-4 mb-4">
+                        <div class="feature-icon p-4 mb-0">
                             <i class="fas fa-chart-line fa-4x text-primary"></i>
                         </div>
                         <h4>Unmatched Accuracy</h4>
-                        <p class="mb-4">“The information we provide is the most accurate of any provider they have used.”
+                        <p class="mb-0">“The information we provide is the most accurate of any provider they have used.”
                         </p>
                         <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="feature-item p-4">
-                        <div class="feature-icon p-4 mb-4">
+                        <div class="feature-icon p-4 mb-0">
                             <i class="fas fa-university fa-4x text-primary"></i>
                         </div>
                         <h4>Exceptional Responsiveness</h4>
-                        <p class="mb-4">“We are the most responsive firm they have dealt with.”
+                        <p class="mb-0">“We are the most responsive firm they have dealt with.”
                         </p>
                         <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="feature-item p-4">
-                        <div class="feature-icon p-4 mb-4">
+                        <div class="feature-icon p-4 mb-0">
                             <i class="fas fa-file-alt fa-4x text-primary"></i>
                         </div>
                         <h4>Detail-Oriented Approach</h4>
-                        <p class="mb-4">“We have a focus on detail that matches their needs.”
+                        <p class="mb-0">“We have a focus on detail that matches their needs.”
                         </p>
                         <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="feature-item p-4">
-                        <div class="feature-icon p-4 mb-4">
+                        <div class="feature-icon p-4 mb-0">
                             <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
                         </div>
                         <h4>Global Flexibility</h4>
-                        <p class="mb-4">“They are impressed by our ability to work across time zones.”
+                        <p class="mb-0">“They are impressed by our ability to work across time zones.”
                         </p>
                         <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                     </div>
@@ -155,7 +155,7 @@ session_start();
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>
-                <h1 class="display-5 mb-4">Meet Our Executives</h1>
+                <h2 class=" mb-0">Meet Our Executives</h2>
                 <p class="mb-0">Experienced leadership driving strategic shareholder solutions worldwide.
                 </p>
             </div>
@@ -164,7 +164,7 @@ session_start();
                     <div class="team-item">
                         <div class="team-title">
                             <h2 class="mb-0">Julian Cassells</h2>
-                            <p class="mb-1"><i>President</i></p>
+                            <p class="mb-0"><i>President</i></p>
                             <hr>
                             <p class="mb-2 text-justify">
                                 Julian Cassells is an industry veteran with over 18 years of experience in global shareholder identification and investor relations. She has led hundreds of successful projects for companies worldwide, including 120 component companies of the Nikkei 225 Index.
@@ -197,7 +197,7 @@ session_start();
                     <div class="team-item">
                         <div class="team-title">
                             <h2 class="mb-0">Livia Pereira</h2>
-                            <p class="mb-1"><i>Vice President</i></p>
+                            <p class="mb-0"><i>Vice President</i></p>
                             <hr>
                             <p class="mb-2 text-justify">
                                 Ms. Pereira is currently a Vice President of Alpha Advisory Associates, Inc. She is responsible for conducting extensive research of clients' shareholders, ranging from institutional investors down to fund research level. In addition, she leads solicitation campaigns, conduct perceptions studies, arrange roadshows, and prepare board presentations. Ms. Pereira played an integral role in pioneering Alpha Advisory Associates.

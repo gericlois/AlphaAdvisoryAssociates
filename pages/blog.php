@@ -52,7 +52,7 @@ $result = mysqli_query($conn, $query);
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
-            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Blog</h4>
+            <h2 class="text-white mb-0 wow fadeInDown" data-wow-delay="0.1s">Our Blog</h2>
             <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -69,7 +69,7 @@ $result = mysqli_query($conn, $query);
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Blog & News</h4>
-                <h1 class="display-5 mb-4">Insights on Governance, Markets, and Engagement</h1>
+                <h2 class=" mb-0">Insights on Governance, Markets, and Engagement</h2>
                 <p class="mb-0">
                     Stay informed with the latest trends, analysis, and expert commentary from Alpha Advisory Associates.
                     Explore thought leadership that drives better shareholder communication and strategy.
@@ -89,7 +89,7 @@ $result = mysqli_query($conn, $query);
                     <div class="col-md-6 col-lg-4">
                         <div class="blog-item p-4 border rounded h-100 shadow-sm">
                             <div class="blog-img mb-3">
-                                <img src="<?= $image ?>" class="img-fluid w-100 rounded" alt="<?= $title ?>" loading="lazy">
+                                <img src="<?= $image ?>" class="img-fluid w-75 rounded" alt="<?= $title ?>" loading="lazy">
                             </div>
                             <a href="blog-details.php?slug=<?= $slug ?>" class="h5 d-inline-block mb-2"><?= $title ?></a>
                             <p class="mb-3"><?= $excerpt ?></p>

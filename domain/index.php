@@ -67,7 +67,7 @@
                 <button class="btn btn-toggle sidenav-toggler">
                   <i class="gg-menu-left"></i>
                 </button>
-              </div>
+              </div> 
               <button class="topbar-toggler more">
                 <i class="gg-more-vertical-alt"></i>
               </button>

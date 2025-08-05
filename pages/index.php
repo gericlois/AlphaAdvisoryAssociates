@@ -29,21 +29,21 @@ include "includes/connection.php";
                         <div class="col-lg-0 col-xl-5"></div>
                         <div class="col-xl-7 animated fadeInLeft">
                             <div class="text-sm-center text-md-end">
-                                <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Alpha Advisory
+                                <h4 class="text-primary text-uppercase fw-bold mb-0">Welcome To Alpha Advisory
                                     Associates </h4>
-                                <h1 class="display-4 text-uppercase text-white mb-4">Make Every Vote Count</h1>
+                                <h2 class=" text-uppercase text-white mb-0">Do you know who your shareholders are?</h2>
                                 <p class="mb-5 fs-5">With over 25 years of experience and 1,500+ projects completed in
                                     12 Countries, Alpha Advisory Associates delivers precision and insights that drive
                                     results.
                                 </p>
-                                <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                                <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-0">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
                                             class="fas fa-play-circle me-2"></i> Watch Video</a>
                                     <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn
                                         More</a>
                                 </div>
                                 <div class="d-flex align-items-center justify-content-center justify-content-md-end">
-                                    <h2 class="text-white me-2">Follow Us:</h2>
+                                    <h3 class="text-white me-2">Follow Us:</h3>
                                     <div class="d-flex justify-content-end ms-2">
                                         <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i
                                                 class="fab fa-facebook-f"></i></a>
@@ -62,27 +62,27 @@ include "includes/connection.php";
             </div>
         </div>
         <div class="header-carousel-item">
-            <img src="../img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+            <img src="../img/carousel-2.jpg" class="img-fluid w-75" alt="Image">
             <div class="carousel-caption">
                 <div class="container">
                     <div class="row g-5">
                         <div class="col-12 animated fadeInUp">
                             <div class="text-center">
-                                <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Alpha Advisory
+                                <h4 class="text-primary text-uppercase fw-bold mb-0">Welcome To Alpha Advisory
                                     Associates </h4>
-                                <h1 class="display-4 text-uppercase text-white mb-4">Your Partner in Investor Relations
-                                    Success</h1>
+                                <h2 class="text-uppercase text-white mb-0">Your Partner in Investor Relations
+                                    Success</h2>
                                 <p class="mb-5 fs-5">From perception studies to roadshow set-up, we help you connect,
                                     communicate, and convert institutional interest into long-term partnerships.
                                 </p>
-                                <div class="d-flex justify-content-center flex-shrink-0 mb-4">
+                                <div class="d-flex justify-content-center flex-shrink-0 mb-0">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
                                             class="fas fa-play-circle me-2"></i> Watch Video</a>
                                     <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn
                                         More</a>
                                 </div>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <h2 class="text-white me-2">Follow Us:</h2>
+                                    <h3 class="text-white me-2">Follow Us:</h3>
                                     <div class="d-flex justify-content-end ms-2">
                                         <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i
                                                 class="fab fa-facebook-f"></i></a>
@@ -112,8 +112,8 @@ include "includes/connection.php";
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
                         <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">Navigating Governance. Empowering Engagement.</h1>
-                        <p class="mb-4">In today’s ever-evolving corporate governance environment, issuers and boards
+                        <h2 class="mb-0">Navigating Governance. Empowering Engagement.</h2>
+                        <p class="mb-0">In today’s ever-evolving corporate governance environment, issuers and boards
                             require seasoned guidance to make informed, strategic decisions. Alpha Advisory Associates
                             is led by senior professionals dedicated to delivering accuracy, responsiveness, and
                             customized service.
@@ -158,7 +158,7 @@ include "includes/connection.php";
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="rounded position-relative overflow-hidden">
-                        <img src="../img/logomain.png" class="img-fluid rounded w-100" alt="">
+                        <img src="../img/logomain.png" class="img-fluid rounded w-75" alt="">
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@ include "includes/connection.php";
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Services</h4>
-                <h1 class="display-5 mb-4"> Your Partner in Proxy, IR, and Shareholder Solutions</h1>
+                <h2 class=" mb-0"> Your Partner in Proxy, IR, and Shareholder Solutions</h2>
                 <p class="mb-0">We deliver a focused suite of investor communications and governance solutions designed
                     to meet the needs of global companies:
                 </p>
@@ -179,13 +179,13 @@ include "includes/connection.php";
             <div class="row g-5 align-items-center">
                 <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="nav nav-pills bg-light rounded p-5">
-                        <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                        <a class="accordion-link p-4 active mb-0" data-bs-toggle="pill" href="#collapseOne">
                             <h5 class="mb-0">Shareholder ID</h5>
                         </a>
-                        <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+                        <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseTwo">
                             <h5 class="mb-0">Global Proxy Solicitation</h5>
                         </a>
-                        <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+                        <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseThree">
                             <h5 class="mb-0">Investor Relations Support</h5>
                         </a>
                         <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
@@ -198,12 +198,12 @@ include "includes/connection.php";
                         <div id="collapseOne" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
                                 <div class="col-md-7">
-                                    <img src="../img/offer-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <img src="../img/offer-1.jpg" class="img-fluid w-75 rounded" alt="">
                                 </div>
                                 <div class="col-md-5">
-                                    <h1 class="display-7 mb-4">Accurate ownership insights to inform strategy and
-                                        anticipate activism.</h1>
-                                    <p class="mb-4">Gain clarity on institutional ownership and identify activist
+                                    <h3 class="mb-0">Accurate ownership insights to inform strategy and
+                                        anticipate activism.</h3>
+                                    <p class="mb-0">Gain clarity on institutional ownership and identify activist
                                         positions to support strategic decision-making.
                                     </p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
@@ -213,12 +213,12 @@ include "includes/connection.php";
                         <div id="collapseTwo" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-7">
-                                    <img src="../img/offer-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <img src="../img/offer-2.jpg" class="img-fluid w-75 rounded" alt="">
                                 </div>
                                 <div class="col-md-5">
-                                    <h1 class="display-7 mb-4">Maximize voting outcomes with targeted solicitation and
-                                        vote analytics.</h1>
-                                    <p class="mb-4">Expert management of annual and special meeting campaigns, vote
+                                    <h1 class="display-7 mb-0">Maximize voting outcomes with targeted solicitation and
+                                        vote analytics.</h2>
+                                    <p class="mb-0">Expert management of annual and special meeting campaigns, vote
                                         projections, and post-vote analysis.
                                     </p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
@@ -228,12 +228,12 @@ include "includes/connection.php";
                         <div id="collapseThree" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-7">
-                                    <img src="../img/offer-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <img src="../img/offer-3.jpg" class="img-fluid w-75 rounded" alt="">
                                 </div>
                                 <div class="col-md-5">
-                                    <h1 class="display-7 mb-4">Build stronger investor relationships with data-driven
-                                        communications.</h1>
-                                    <p class="mb-4">Customized perception studies, investor targeting, and communication
+                                    <h1 class="display-7 mb-0">Build stronger investor relationships with data-driven
+                                        communications.</h2>
+                                    <p class="mb-0">Customized perception studies, investor targeting, and communication
                                         strategies to strengthen market relationships.
                                     </p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
@@ -243,12 +243,12 @@ include "includes/connection.php";
                         <div id="collapseFour" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-md-7">
-                                    <img src="../img/offer-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <img src="../img/offer-4.jpg" class="img-fluid w-75 rounded" alt="">
                                 </div>
                                 <div class="col-md-5">
-                                    <h1 class="display-7 mb-4">Connect with key stakeholders through well-executed
-                                        global outreach.</h1>
-                                    <p class="mb-4">Plan and execute high-impact roadshows that connect you with key
+                                    <h1 class="display-7 mb-0">Connect with key stakeholders through well-executed
+                                        global outreach.</h2>
+                                    <p class="mb-0">Plan and execute high-impact roadshows that connect you with key
                                         global investors and decision-makers.
                                     </p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
@@ -262,75 +262,14 @@ include "includes/connection.php";
     </div>
     <!-- Services End -->
 
-    <!-- Blog Start -->
-    <div class="container-fluid blog pb-5">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Our Blog & News</h4>
-                <h1 class="display-5 mb-4">Insights on Governance, Markets, and Engagement</h1>
-                <p class="mb-0">
-                    Stay informed with the latest trends, analysis, and expert commentary from Alpha Advisory Associates. Explore thought leadership that drives better shareholder communication and strategy.
-                </p>
-            </div>
-
-            <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
-                <?php
-
-                $query = "SELECT blogs.*, users.name AS author_name 
-                      FROM blogs 
-                      LEFT JOIN users ON blogs.author_id = users.user_id 
-                      WHERE status = 'published' 
-                      ORDER BY published_at DESC 
-                      LIMIT 10";
-
-                $result = mysqli_query($conn, $query);
-
-                while ($row = mysqli_fetch_assoc($result)) {
-                    $title = htmlspecialchars($row['title']);
-                    $slug = htmlspecialchars($row['slug']);
-                    $excerpt = substr(strip_tags($row['content']), 0, 120) . '...';
-                    $image = !empty($row['image_path']) ? '../' . $row['image_path'] : '../img/default.jpg';
-                    $author = $row['author_name'] ?: 'Admin';
-                    $date = date("F j, Y", strtotime($row['published_at']));
-                ?>
-                    <div class="blog-item p-4">
-                        <div class="blog-img mb-4">
-                            <img src="<?= $image ?>" class="img-fluid w-100 rounded" alt="<?= $title ?>">
-                            <div class="blog-title">
-                                <a href="blog-details.php?slug=<?= $slug ?>" class="btn"><?= $author ?></a>
-                            </div>
-                        </div>
-                        <a href="blog-details.php?slug=<?= $slug ?>" class="h4 d-inline-block mb-3"><?= $title ?></a>
-                        <p class="mb-3"><?= $excerpt ?></p>
-
-                        <!-- Learn More Button -->
-                        <a href="blog-details.php?slug=<?= $slug ?>" class="btn btn-sm btn-primary rounded-pill px-4 mb-3">Learn More</a>
-
-                        <div class="d-flex align-items-center">
-                            <img src="../img/testimonial-1.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="Author">
-                            <div class="ms-3">
-                                <h5><?= $author ?></h5>
-                                <p class="mb-0"><?= $date ?></p>
-                            </div>
-                        </div>
-                    </div>
-                <?php } ?>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-
-
 
     <!-- FAQs Start -->
     <div class="container-fluid faq-section pb-5">
         <div class="container pb-5 overflow-hidden">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">FAQs</h4>
-                <h1 class="display-5 mb-4">Frequently Asked Questions</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
-                    sint dolorem autem obcaecati, ipsam mollitia hic.
+                <h2 class=" mb-0">Frequently Asked Questions</h2>
+                <p class="mb-0">Find quick answers to common questions about our services, process, and how we support your shareholder communication goals.
                 </p>
             </div>
             <div class="row g-5 align-items-center">
@@ -432,7 +371,7 @@ include "includes/connection.php";
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded">
-                        <img src="../img/about-2.png" class="img-fluid w-100" alt="">
+                        <img src="../img/about-2.png" class="img-fluid w-75" alt="">
                     </div>
                 </div>
             </div>

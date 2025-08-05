@@ -512,15 +512,17 @@ progress {
 }
 
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(0.8rem + 1vw); /* reduced scaling factor */
   font-weight: 700;
   line-height: 1.2;
 }
+
 @media (min-width: 1200px) {
   .display-6 {
-    font-size: 2.5rem;
+    font-size: 2rem; /* reduced from 2.5rem */
   }
 }
+
 
 .list-unstyled {
   padding-left: 0;
